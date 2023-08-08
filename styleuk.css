@@ -186,4 +186,17 @@ h2 {
 .trailer {
     background-image: url('./img/Rectangle10.png');
     background-size: cover;
+    padding-top: 850px;
 }
+
+.check-trailer {
+    display: flex;
+    justify-content: center;
+}
+
+.button-trailer {
+    padding-top: 355px;
+    padding-bottom: 355px;
+}
+
+
