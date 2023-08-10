@@ -203,4 +203,35 @@ h2 {
     cursor: pointer;
 }
 
+.learn-languages {
+    background-image: url('./img/Rectangle20.png');
+    background-size: cover;
+    padding: 0 0 100px;
+}
+
+.cards-top,
+.cards-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.70);
+    width: 320px;
+    height: 240px;
+    margin: 10px 25px;
+    color: #141414;
+    font-family: 'Headland One', serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    color: #141414;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Headland One', serif;
+}
 
