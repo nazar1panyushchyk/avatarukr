@@ -186,17 +186,21 @@ h2 {
 .trailer {
     background-image: url('./img/Rectangle10.png');
     background-size: cover;
-    padding-top: 850px;
-}
-
-.check-trailer {
-    display: flex;
-    justify-content: center;
+    padding: 355px 645px;
 }
 
 .button-trailer {
-    padding-top: 355px;
-    padding-bottom: 355px;
+    padding: 25px 20px;
+    text-align: center;
+    border: 3px solid #26C7EA;
+    border-radius: 35px 0 35px 0;
+    background:#0B0E66;
+    color: #26C6EA;
+    width: 260px;
+    height: 80px;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
 }
 
 
