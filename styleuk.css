@@ -189,6 +189,10 @@ h2 {
     padding: 355px 645px;
 }
 
+.check-trailer {
+    text-align: center;
+}
+
 .button-trailer {
     padding: 25px 20px;
     text-align: center;
@@ -216,6 +220,10 @@ h2 {
 }
 
 .card {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
     background: rgba(255, 255, 255, 0.70);
     width: 320px;
     height: 240px;
@@ -233,5 +241,12 @@ h3 {
     font-size: 32px;
     font-weight: 400;
     font-family: 'Headland One', serif;
+    padding: 58px 0 45px;
+}
+
+.footer {
+    background: rgba(43, 74, 97, 0.87);
+    display: flex;
+    justify-content: space-around;
 }
 
