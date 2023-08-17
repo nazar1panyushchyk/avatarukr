@@ -245,8 +245,11 @@ h3 {
 }
 
 .footer {
-    background: rgba(43, 74, 97, 0.87);
     display: flex;
-    justify-content: space-around;
+    background: rgba(43, 74, 97, 0.87);
 }
+
+
+
+
 
