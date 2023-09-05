@@ -50,7 +50,8 @@ header {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    margin-left: 2px;
+    margin-left: 18px;
+    margin-top: 1px;
     background-color: white;
 }
 
@@ -88,6 +89,7 @@ nav a:nth-child(3) {
     color: #26C6EA;
     font-weight: 400px;
     font-size: 20px;
+    font-family: 'Headland One', serif;
 }
 
 .logo {
@@ -146,6 +148,7 @@ nav a:nth-child(3) {
     font-weight: 400px;
     font-size: 20px;
     cursor: pointer;
+    font-family: 'Headland One', serif;
 }
 
 .arrow {
@@ -208,6 +211,7 @@ h2 {
     font-size: 24px;
     font-weight: 400;
     cursor: pointer;
+    font-family: 'Headland One', serif;
 }
 
 .learn-languages {
@@ -250,8 +254,11 @@ h3 {
 .footer {
     display: flex;
     align-items: center;
+    justify-content: space-around;
+}
+
+footer {
     background: rgba(43, 74, 97, 0.87);
-    
 }
 
 .qa-img {
@@ -274,6 +281,39 @@ h3 {
     margin: 0 20px;
 }
 
+.last-p {
+    margin-left: 678px;
+    padding-bottom: 18px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.img-line {
+    padding-top: 20px;
+}
+
+.qa-img {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin: 16px;
+}
+
+.c-img {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.logo-footer {
+    padding-left: 30px;
+    padding-top: 20px;
+}
 
 
 
