@@ -1,0 +1,295 @@
+@import '/reset.css';
+@import '/normalize.css';
+
+.join-clan {
+    background-image: url('./img/Group481.png');
+}
+
+.flex {
+    display: flex;
+}
+
+.cover {
+    background-size: cover;
+}
+
+.center {
+    align-items: center;
+}
+
+.font {
+    font-family: 'Inter', sans-serif;
+}
+
+.fontw {
+    font-weight: 400px;
+}
+
+.color {
+    color: #FFFFFF
+}
+
+header {
+    background-image: url('./img/Rectangle104.jpg');
+    background-size: cover;
+}
+
+.header-wrapper {
+    justify-content: space-evenly;
+    padding: 39px 0;
+    border-bottom: 3px solid #FFFFFF;
+    background-repeat: no-repeat;
+}
+
+.switcher a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 30px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.switch {
+    width: 36px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+.round {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 3px;
+    margin-top: 1px;
+    background-color: white;
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 20px 0 0;
+    font-family: 'Inter', sans-serif;
+}
+
+nav a:nth-child(1) {
+    font-weight: 600px;
+    color: #94CFFF;
+}
+
+nav a:nth-child(2) {
+    font-weight: 300px;
+    color: #FFFFFF;
+}
+
+nav a:nth-child(3) {
+    font-weight: 300px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.button-join {
+    border: 3px solid #26C7EA;
+    border-radius: 35px 0 35px 0;
+    background:#0B0E66;
+    width: 141px;
+    height: 41px;
+    cursor: pointer;
+    color: #26C6EA;
+    font-size: 20px;
+    font-family: 'Headland One', serif;
+}
+
+.logo {
+    width: 186px;
+    height: 72px;
+}
+
+
+.social {
+    flex-direction: column;
+    width: 35px;
+    height: 30px;
+}
+
+.social img {
+    margin-bottom: 27px;
+}
+
+.social img:last-of-type {
+    margin: 0;
+}
+
+.p1 {
+    width: 298px;
+    height: 95px;
+    font-size: 20px;
+}
+
+.p2 {
+    width: 376px;
+    height: 123px;
+    font-size: 20px;
+}
+
+.main-description {
+    justify-content: space-around;
+    padding: 180px 0px;
+}
+
+.button-clan {
+    border: 3px solid #26C7EA;
+    border-radius: 35px 0 35px 0;
+    background:#0B0E66;
+    color: #26C6EA;
+    width: 260px;
+    height: 80px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Headland One', serif;
+}
+
+.arrow {
+    padding-left: 70px;
+    width: 152px;
+    height: 40px;
+}
+
+.flex1 {
+    flex-direction: column;
+}
+
+.quote1 {
+    background-image: url('./img/Rectangle101.png');
+}
+
+.quote {
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #0A3853;
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.author {
+    color: #000;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 16px;
+}
+
+.trailer {
+    background-image: url('./img/Rectangle10.png');
+    padding: 355px 0;
+}
+
+.check-trailer {
+    text-align: center;
+}
+
+.button-trailer {
+    padding: 25px 20px;
+    text-align: center;
+    border: 3px solid #26C7EA;
+    border-radius: 35px 0 35px 0;
+    background:#0B0E66;
+    color: #26C6EA;
+    width: 260px;
+    height: 80px;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: 'Headland One', serif;
+}
+
+.learn-languages {
+    background-image: url('./img/Rectangle20.png');
+    padding: 0 0 100px;
+}
+
+.cards-top,
+.cards-bottom {
+    justify-content: center;
+}
+
+.card {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.70);
+    width: 320px;
+    height: 240px;
+    margin: 10px 25px;
+    color: #141414;
+    font-family: 'Headland One', serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    color: #141414;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Headland One', serif;
+    padding: 58px 0 45px;
+}
+
+.footer {
+    justify-content: space-around;
+}
+
+footer {
+    background: rgba(43, 74, 97, 0.87);
+}
+
+.vector8 {
+    height: 2px;
+    margin: 0 20px;
+}
+
+.vector9 {
+    height: 2px;
+    margin: 0 20px;
+}
+
+.last-p {
+    margin-left: 678px;
+    padding-bottom: 18px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.img-line {
+    padding-top: 20px;
+}
+
+.qa-img {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin: 16px;
+}
+
+.c-img {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.logo-footer {
+    padding-left: 30px;
+    padding-top: 20px;
+}
